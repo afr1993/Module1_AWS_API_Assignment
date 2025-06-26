@@ -1,0 +1,74 @@
+[
+    {
+        "@timestamp": "2025-06-26 13:07:37.228",
+        "@message": "END RequestId: e52ad9b2-bdad-43dd-82c9-7fbaae8e3b79\n",
+        "@logStream": "2025/06/26/[$LATEST]042dd3db6a624b8bb7bca98f209b8f99",
+        "@log": "091756093845:/aws/lambda/HelloLambdaFunction"
+    },
+    {
+        "@timestamp": "2025-06-26 13:07:37.228",
+        "@message": "REPORT RequestId: e52ad9b2-bdad-43dd-82c9-7fbaae8e3b79\tDuration: 7.55 ms\tBilled Duration: 8 ms\tMemory Size: 128 MB\tMax Memory Used: 72 MB\t\n",
+        "@logStream": "2025/06/26/[$LATEST]042dd3db6a624b8bb7bca98f209b8f99",
+        "@log": "091756093845:/aws/lambda/HelloLambdaFunction"
+    },
+    {
+        "@timestamp": "2025-06-26 13:07:37.219",
+        "@message": "START RequestId: e52ad9b2-bdad-43dd-82c9-7fbaae8e3b79 Version: $LATEST\n",
+        "@logStream": "2025/06/26/[$LATEST]042dd3db6a624b8bb7bca98f209b8f99",
+        "@log": "091756093845:/aws/lambda/HelloLambdaFunction"
+    },
+    {
+        "@timestamp": "2025-06-26 13:07:19.129",
+        "@message": "END RequestId: 77fa006f-c4dc-4519-a189-5f5dca2ff6cb\n",
+        "@logStream": "2025/06/26/[$LATEST]042dd3db6a624b8bb7bca98f209b8f99",
+        "@log": "091756093845:/aws/lambda/HelloLambdaFunction"
+    },
+    {
+        "@timestamp": "2025-06-26 13:07:19.129",
+        "@message": "REPORT RequestId: 77fa006f-c4dc-4519-a189-5f5dca2ff6cb\tDuration: 5.07 ms\tBilled Duration: 6 ms\tMemory Size: 128 MB\tMax Memory Used: 72 MB\tInit Duration: 138.54 ms\t\n",
+        "@logStream": "2025/06/26/[$LATEST]042dd3db6a624b8bb7bca98f209b8f99",
+        "@log": "091756093845:/aws/lambda/HelloLambdaFunction"
+    },
+    {
+        "@timestamp": "2025-06-26 13:07:19.123",
+        "@message": "START RequestId: 77fa006f-c4dc-4519-a189-5f5dca2ff6cb Version: $LATEST\n",
+        "@logStream": "2025/06/26/[$LATEST]042dd3db6a624b8bb7bca98f209b8f99",
+        "@log": "091756093845:/aws/lambda/HelloLambdaFunction"
+    },
+    {
+        "@timestamp": "2025-06-26 13:07:18.981",
+        "@message": "INIT_START Runtime Version: nodejs:22.v46\tRuntime Version ARN: arn:aws:lambda:us-east-2::runtime:79b7149e758a82658739c7cd4596b9b6be5d53d3783e6a10ce2b0275993fb888\n",
+        "@logStream": "2025/06/26/[$LATEST]042dd3db6a624b8bb7bca98f209b8f99",
+        "@log": "091756093845:/aws/lambda/HelloLambdaFunction"
+    },
+    {
+        "@timestamp": "2025-06-26 13:03:07.047",
+        "@message": "END RequestId: 0f5f46b0-3388-48e9-aaa7-cb0383c37cb3\n",
+        "@logStream": "2025/06/26/[$LATEST]1f3c0ca3e35b4809b6a9dc7e91e3f9e1",
+        "@log": "091756093845:/aws/lambda/HelloLambdaFunction"
+    },
+    {
+        "@timestamp": "2025-06-26 13:03:07.047",
+        "@message": "REPORT RequestId: 0f5f46b0-3388-48e9-aaa7-cb0383c37cb3\tDuration: 104.27 ms\tBilled Duration: 105 ms\tMemory Size: 128 MB\tMax Memory Used: 75 MB\tStatus: error\tError Type: Runtime.Unknown\n",
+        "@logStream": "2025/06/26/[$LATEST]1f3c0ca3e35b4809b6a9dc7e91e3f9e1",
+        "@log": "091756093845:/aws/lambda/HelloLambdaFunction"
+    },
+    {
+        "@timestamp": "2025-06-26 13:03:07.041",
+        "@message": "INIT_REPORT Init Duration: 92.67 ms\tPhase: invoke\tStatus: error\tError Type: Runtime.Unknown\n",
+        "@logStream": "2025/06/26/[$LATEST]1f3c0ca3e35b4809b6a9dc7e91e3f9e1",
+        "@log": "091756093845:/aws/lambda/HelloLambdaFunction"
+    },
+    {
+        "@timestamp": "2025-06-26 13:03:07.041",
+        "@message": "START RequestId: 0f5f46b0-3388-48e9-aaa7-cb0383c37cb3 Version: $LATEST\n",
+        "@logStream": "2025/06/26/[$LATEST]1f3c0ca3e35b4809b6a9dc7e91e3f9e1",
+        "@log": "091756093845:/aws/lambda/HelloLambdaFunction"
+    },
+    {
+        "@timestamp": "2025-06-26 13:03:07.023",
+        "@message": "2025-06-26T13:03:07.023Z\tundefined\tERROR\tUncaught Exception \t{\"errorType\":\"ReferenceError\",\"errorMessage\":\"exports is not defined in ES module scope\",\"stack\":[\"ReferenceError: exports is not defined in ES module scope\",\"    at file:///var/task/index.mjs:1:1\",\"    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)\",\"    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)\",\"    at async _tryAwaitImport (file:///var/runtime/index.mjs:1030:16)\",\"    at async _tryRequire (file:///var/runtime/index.mjs:1079:86)\",\"    at async _loadUserApp (file:///var/runtime/index.mjs:1103:16)\",\"    at async UserFunction.js.module.exports.load (file:///var/runtime/index.mjs:1148:21)\",\"    at async start (file:///var/runtime/index.mjs:1332:23)\",\"    at async file:///var/runtime/index.mjs:1339:1\"]}\n",
+        "@logStream": "2025/06/26/[$LATEST]1f3c0ca3e35b4809b6a9dc7e91e3f9e1",
+        "@log": "091756093845:/aws/lambda/HelloLambdaFunction"
+    }
+]
